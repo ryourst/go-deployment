@@ -7,7 +7,7 @@ RUN go build -v -o deployment
 
 
 FROM alpine:3.4
-MAINTAINER 	Rich Yourstone <richard.yourstone@t-mobile.com>
+MAINTAINER 	Rich Yourstone <ryourstone@yahoo.com>
 
 RUN mkdir /lib64 && ln -s /lib/libc.musl-x86_64.so.1 /lib64/ld-linux-x86-64.so.2
 
